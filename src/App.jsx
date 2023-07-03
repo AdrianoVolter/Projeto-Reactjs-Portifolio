@@ -1,4 +1,4 @@
-
+import Header from './components/Header'
 import './App.css'
 
 function App() {
@@ -6,9 +6,7 @@ function App() {
 
   return (
     <>
-     <h1>
-        Ola mundo
-     </h1>
+      <Header/>
     </>
   )
 }

@@ -1,0 +1,49 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.home img {
+    height: 500px;
+}
+
+.home p{
+    font-size: 3rem;
+    font-weight: bold;
+   margin-bottom: 1.5rem;
+}
+
+.home span{
+    font-size: 3rem;
+    color: var(--blue);
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_blue {
+    background-color: var(--blue);
+    color: var(--white);
+    
+}
+
+.btn_blue:hover {
+    background-color: var(--secondary);
+}

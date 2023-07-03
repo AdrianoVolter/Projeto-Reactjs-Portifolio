@@ -23,5 +23,5 @@ header a{
 }
 
 header a:hover{
-    color: var(--red);
+    color: var(--blue);
 }

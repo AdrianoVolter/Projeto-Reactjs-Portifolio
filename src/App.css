@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container img {
+    height: 500px;
+}
+
+.container p{
+    font-size: 3rem;
+    font-weight: bold;
+   margin-bottom: 1.5rem;
+}
+
+.container span{
+    font-size: 3rem;
+    color: var(--blue);
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn-blue:hover {
+    background-color: var(--secondary);
+}

@@ -8,7 +8,24 @@ function App() {
   return (
     <>
       <Header/>
-      <h1>Olá Mundo</h1>
+      <section className='container'>
+        <div className='apresentacao'>
+          <p>Olá,  sou <br />
+            <span>Adriano Volter</span> <br />
+            Dev Full Stack
+          </p>
+          <button className='btn btn-blue'>
+            Saiba mais sobre mim
+          </button>
+        </div>
+        <figure>
+          <img 
+            className='img-home'
+            src="public/undraw_programming_re_kg9v.svg" 
+            alt="Imagem Home" 
+            />
+        </figure>
+      </section>
       <Footer/>
     </>
   )

@@ -1,13 +1,16 @@
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
+import Container from "../../components/Container"
 
 function Sobre() {
     return (
         <> 
             <Header />
-            <div>
-                <h1>Sobre</h1>
-            </div>
+                <Container>
+                    
+                        <h2>Sobre</h2>
+                    
+            </Container>
             <Footer />
         </>
       
@@ -15,3 +18,4 @@ function Sobre() {
 }
 
 export default Sobre
+

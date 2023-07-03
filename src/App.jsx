@@ -1,4 +1,5 @@
-import Home from './pages/Home'
+//import Home from './pages/Home'
+import AppRoutes from './routes'
 
 import './App.css'
 
@@ -6,10 +7,8 @@ function App() {
   
 
   return (
-    <>
-
-      <Home/>
-    </>
+   
+    <AppRoutes/>
   )
 }
 

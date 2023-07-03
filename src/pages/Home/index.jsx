@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import { Link } from 'react-router-dom'
 
 
 function Home () {
@@ -12,9 +13,11 @@ function Home () {
                 <span>Adriano Volter</span> <br />
                 Dev Full Stack
             </p>
-            <button className='btn btn-blue'>
+            <Link 
+                to = '/sobre'
+                className='btn btn-blue'>
                 Saiba mais sobre mim
-            </button>
+            </Link>
             </div>
             <figure>
             <img 

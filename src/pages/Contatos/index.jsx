@@ -15,11 +15,11 @@ function Contatos() {
                           <h3>Entre em contato</h3>
                           <p>Para que possamos conversar mais sobre.</p>
                           <div className={styles.icones}>
-                            <GoMail />
-                            <BsInstagram />
-                            <BsWhatsapp />
-                            <BsGithub />
-                            <BsLinkedin />
+                            <GoMail className={styles.icone}/>
+                            <BsInstagram className={styles.icone}/>
+                            <BsWhatsapp className={styles.icone}/>
+                            <BsGithub className={styles.icone}/>
+                            <BsLinkedin className={styles.icone}/>
 
                           </div>
                    </section>

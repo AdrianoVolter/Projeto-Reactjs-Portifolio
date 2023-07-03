@@ -7,9 +7,9 @@ function Contatos() {
         <>
             <Header />
                 <Container>
-                    <div>
-                        <h1>Contatos</h1>
-                    </div>
+                   
+                        <h2>Contatos</h2>
+                    
                 </Container>
             <Footer />
         </>

@@ -7,9 +7,9 @@ function Projetos() {
         <>
             <Header />
                 <Container>
-                    <div>
-                        <h1>Projetos</h1>
-                    </div>
+                    
+                        <h2>Projetos</h2>
+                    
                 </Container>
             <Footer />
         </>
@@ -17,3 +17,4 @@ function Projetos() {
 }
 
 export default Projetos
+

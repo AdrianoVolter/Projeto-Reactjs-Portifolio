@@ -7,9 +7,9 @@ function Sobre() {
         <> 
             <Header />
                 <Container>
-                    <div>
-                        <h1>Sobre</h1>
-                    </div>
+                    
+                        <h2>Sobre</h2>
+                    
             </Container>
             <Footer />
         </>
@@ -18,3 +18,4 @@ function Sobre() {
 }
 
 export default Sobre
+

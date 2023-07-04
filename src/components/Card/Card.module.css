@@ -22,3 +22,39 @@
     font-size: 1.2rem;
     color: #555;
 }
+
+.card_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_icones{
+    display: flex;
+    gap: 10px;
+    color: var(--blue);
+    font-size: 1.5rem;
+}
+
+.card_botao {
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_footer button:hover {
+    background-color: var(--blue);
+    transition: all 0.3s ease-in-out;
+}
+

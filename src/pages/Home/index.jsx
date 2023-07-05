@@ -1,5 +1,6 @@
 import styles from './Home.module.css'
 import { Link } from 'react-router-dom'
+import progaming from '/programing.svg'
 
 function Home () {
   return (
@@ -18,7 +19,7 @@ function Home () {
         <figure>
             <img 
                 className={styles.img_home}
-                src="public/undraw_programming_re_kg9v.svg" 
+                src={progaming}
                 alt="Imagem Home" 
                 />
         </figure>

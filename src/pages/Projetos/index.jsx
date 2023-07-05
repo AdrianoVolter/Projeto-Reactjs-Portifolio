@@ -18,14 +18,16 @@ function Projetos() {
     return (
         <section className={projetos}>     
             <h2>Projetos</h2>
-            <section className={lista}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-            </section>
+            {
+                repositories.length > 0 ? (
+                    <section className={lista}>
+                   {console.log(repositories)}
+                   
+                </section>
+                ) : (
+                    <p>Carregando...</p>
+                )
+            }
         </section>
     )
 }

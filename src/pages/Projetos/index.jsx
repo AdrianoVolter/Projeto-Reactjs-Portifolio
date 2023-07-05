@@ -10,7 +10,10 @@ function Projetos() {
         async function fetchData() {
             const response = await fetch('https://api.github.com/users/adrianovolter/repos')
             const data = await response.json()
-            setRepositories(data)
+            
+            const sortedRepositories = data.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+                setRepositories(sortedRepositories)
+            
         }
         fetchData()
     }, [])

@@ -21,8 +21,7 @@ function Projetos() {
             {
                 repositories.length > 0 ? (
                     <section className={lista}>
-                   {console.log(repositories)}
-                   
+                  
                 </section>
                 ) : (
                     <p>Carregando...</p>

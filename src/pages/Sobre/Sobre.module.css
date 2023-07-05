@@ -1,0 +1,72 @@
+.avatar{
+    width: 250px;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.sobre{
+    width: 100%;
+    min-height: 85vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bio span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.bio strong{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.textos h2, p {
+   
+    margin-bottom: 1rem;
+}
+
+.techs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    
+}
+
+.icones img{
+    width: 50px;
+    color: var(--blue);
+
+}
+

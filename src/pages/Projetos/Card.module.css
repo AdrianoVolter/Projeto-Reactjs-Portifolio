@@ -1,0 +1,12 @@
+.projetos h2 {
+    text-align: center;
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-block: 1rem;
+}

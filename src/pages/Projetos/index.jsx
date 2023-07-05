@@ -8,7 +8,7 @@ function Projetos() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('https://api.github.com/users/adrianovolter/repos')
+            const response = await fetch('https://api.github.com/users/adrianovolter/repos?page=1&per_page=50')
             const data = await response.json()
             
             const sortedRepositories = data.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))

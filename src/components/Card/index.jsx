@@ -19,7 +19,12 @@ function Card({name, description, html_url}) {
                 <BsFiletypeSql/>
                 
             </div>
-            <Link to={html_url} target='_blank' className={styles.card_botao}>
+            <Link 
+              to={html_url} 
+              target='_blank' 
+              className={styles.card_botao}
+              title='Acessar o repositório'
+              >
                 <BsArrowRight/>
             </Link>
        </div>

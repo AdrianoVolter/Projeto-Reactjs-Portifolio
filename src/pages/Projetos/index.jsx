@@ -1,5 +1,5 @@
 import Card from "../../components/Card"
-import  {projetos, lista}  from "./Card.module.css"
+import  {projetos, lista}  from "./Projeto.module.css"
 import { useEffect, useState } from "react"
 
 function Projetos() {
@@ -20,9 +20,9 @@ function Projetos() {
 
     return (
         <section className={projetos}>     
-            <h2>Projetos</h2>
+            <h2> Repositórios do meu GitHub</h2>
             {
-                repositories.length > 0 ? (
+                repositories.length > 0  ? (
                     <section className={lista}>
                     {
                         repositories.map((repo) => {

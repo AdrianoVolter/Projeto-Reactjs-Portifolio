@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.card_footer button:hover {
+.card_botao:hover {
     background-color: var(--blue);
     transition: all 0.3s ease-in-out;
 }

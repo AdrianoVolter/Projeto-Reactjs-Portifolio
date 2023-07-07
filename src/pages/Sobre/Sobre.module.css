@@ -70,3 +70,43 @@
 
 }
 
+/*media query para telas menores que 768px */
+
+@media(max-width: 768px) {
+    .sobre {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .bio {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    .techs {
+        width: 100%;
+    }
+}
+
+/*media query para telas menores que 425px */
+
+@media(max-width: 425px) {
+    .avatar {
+        width: 200px;
+        margin-top: 2rem;
+    }
+
+    .textos {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .techs {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

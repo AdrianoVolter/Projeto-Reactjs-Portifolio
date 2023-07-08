@@ -77,3 +77,12 @@ header a:hover{
         width: 100%;
     }
 }
+
+@media(max-width: 320px){
+    .header span{
+        font-size: 1rem;
+    }
+    header a{
+        font-size: 1rem;
+    }
+}

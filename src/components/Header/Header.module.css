@@ -58,5 +58,22 @@ header a:hover{
     }
     .show{
         display: flex;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: var(--primary);
+        flex-direction: column;
+        align-items: right;
+        
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 480px){
+    .show{
+        width: 100%;
     }
 }

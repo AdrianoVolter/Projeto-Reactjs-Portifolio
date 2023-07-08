@@ -21,3 +21,16 @@
     font-size: 3rem ;
     color: var(--blue);
 }
+
+@media (max-width: 768px) {
+    .contatos {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icones {
+        
+        gap: 0.5rem;
+    }
+}

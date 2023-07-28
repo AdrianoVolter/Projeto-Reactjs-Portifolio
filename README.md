@@ -28,7 +28,7 @@
 
 ### Pagina inicial:
 
-![image](public/inicio-2.png)
+![image](public/page-inicio.png)
 
 ### Pagina de sobre:
 
@@ -45,3 +45,8 @@
 ### Pagina com responsividade:
 
 ![image](public/inicio-resp.png)
+
+
+
+
+   

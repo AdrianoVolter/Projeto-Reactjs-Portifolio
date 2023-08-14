@@ -16,5 +16,6 @@ COPY . .
 # Exponha a porta que o app vai rodar
 EXPOSE 5173
 
+
 # Comando para iniciar o app
 CMD ["npm", "run", "dev"]

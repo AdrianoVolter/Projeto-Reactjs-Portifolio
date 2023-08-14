@@ -8,7 +8,7 @@ function Home () {
         <div className={styles.apresentacao}>
             <p>Olá,  sou <br />
                 <span>Adriano Volter</span> <br />
-                Dev Front-End <br />
+                Dev. Front-End Jr <br />
                 
             </p>
             <Link 

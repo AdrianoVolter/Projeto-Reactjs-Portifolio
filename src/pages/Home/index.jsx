@@ -14,7 +14,7 @@ function Home () {
             <Link 
                 to = '/sobre'
                 className={`${styles.btn} ${styles.btn_blue }`}>
-                Saiba mais sobre mim
+                Saiba mais sobre mim 
             </Link>
         </div>
         <figure>

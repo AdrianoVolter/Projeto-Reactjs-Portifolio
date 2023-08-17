@@ -1,0 +1,16 @@
+name: Build do Projeto projeto-reactjs-portifolio-app
+
+on: [push]  # Disparar o fluxo de trabalho quando houver push para o repositório
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # O ambiente em que o fluxo de trabalho será executado
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v2  # Ação para verificar o código do repositório
+
+    - name: Build e executar o projeto React usando Docker
+      run: |
+        docker build -t projeto-reactjs-portifolio-app .  # Construir a imagem Docker usando o Dockerfile
+        docker run -p 5173:5173 projeto-reactjs-portifolio-app  # Executar o container com a imagem construída

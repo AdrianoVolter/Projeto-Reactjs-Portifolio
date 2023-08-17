@@ -33,7 +33,7 @@
 ## Projeto hospedado na Vercel:
 
 Foi usado a vercel para hospedar o projeto, pois é uma plataforma que facilita o deploy de projetos front-end, e também é uma plataforma gratuita.
-Usado CI para fazer o deploy automático do projeto, toda vez que é feito um push no repositório do github, o projeto é atualizado na vercel , usando servidor nginx.
+Usado CI para fazer o deploy automático do projeto, toda vez que é feito um push no repositório do github, o projeto é atualizado na vercel , usando um container nginx.
 
 ### Link do projeto:
 

@@ -8,9 +8,9 @@ jobs:
 
     steps:
     - name: Checkout do código
-      uses: actions/checkout@v2  # Ação para verificar o código do repositório
+      uses: actions/checkout@v2
 
-    - name: Build e executar o projeto React usando Docker
+    - name: Construir a imagem Docker e implantar no NGINX
       run: |
-        docker build -t projeto-reactjs-portifolio-app .  # Construir a imagem Docker usando o Dockerfile
-        docker run -p 5173:5173 projeto-reactjs-portifolio-app  # Executar o container com a imagem construída
+        docker build -t projeto-reactjs-portifolio-app .
+        docker run -d -p 80:80 projeto-reactjs-portifolio-app

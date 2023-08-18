@@ -47,3 +47,6 @@ jobs:
           docker build -t projeto-reactjs-portifolio-app .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
           docker push projeto-reactjs-portifolio-app:latest
+
+
+          

@@ -25,13 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-    #  - name: Run tests
-    #   run: npm test
-
   deploy-main:
     needs: build
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
     
     steps:
       - name: Checkout code
@@ -49,4 +46,4 @@ jobs:
         run: |
           docker build -t projeto-reactjs-portifolio-app .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker push  projeto-reactjs-portifolio-app:latest
+          docker push projeto-reactjs-portifolio-app:latest

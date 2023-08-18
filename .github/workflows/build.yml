@@ -42,11 +42,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and push Docker image
+      - name: Pull Docker image from Docker Hub
         run: |
-          docker build -t projeto-reactjs-portifolio-app .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker push projeto-reactjs-portifolio-app:latest
-
-
-          
+          docker push  projeto-reactjs-portifolio-app:latest

@@ -3,16 +3,12 @@ name: CI/CD Pipeline Portifolio
 on:
   push:
     branches:
-      - develop
-
-  pull_request:
-    types:
-      - closed
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -25,28 +21,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-  deploy-main:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Pull Docker image from Docker Hub
+      - name: Build and push Docker image
         run: |
+          docker build -t adrianovolter/portifolio-2023-app .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker pull $DOCKERHUB_USERNAME/portifolio-2023-app:latest
+          docker push adrianovolter/portifolio-2023-app:latest
 
-      - name: Run Docker container
+      - name: Create Pull Request
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
-          docker run -d -p 80:80 $DOCKERHUB_USERNAME/portifolio-2023-app:latest
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git checkout -b update-branch
+          git commit -am "Automated commit for updating image"
+          git push origin update-branch
+          hub pull-request -b main -h update-branch -m "Update Docker image"

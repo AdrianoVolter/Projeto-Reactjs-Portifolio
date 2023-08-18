@@ -1,16 +1,52 @@
-name: Build do Projeto projeto-reactjs-portifolio-app
+name: CI/CD Pipeline Portifolio
 
-on: [push]  # Disparar o fluxo de trabalho quando houver push para o repositório
+on:
+  push:
+    branches:
+      - develop
+
+  pull_request:
+    types:
+      - closed
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # O ambiente em que o fluxo de trabalho será executado
-
+    runs-on: ubuntu-latest
+    
     steps:
-    - name: Checkout do código
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Construir a imagem Docker e implantar no NGINX
-      run: |
-        docker build -t projeto-reactjs-portifolio-app .
-        docker run -d -p 80:80 projeto-reactjs-portifolio-app
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+    #  - name: Run tests
+    #   run: npm test
+
+  deploy-main:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and push Docker image
+        run: |
+          docker build -t projeto-reactjs-portifolio-app .
+          docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
+          docker push  projeto-reactjs-portifolio-app:latest

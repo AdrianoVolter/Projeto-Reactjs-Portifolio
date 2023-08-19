@@ -16,17 +16,13 @@ function Sobre() {
             <div className={styles.bio}>
                 <img src={avatar} alt="" className={styles.avatar} />
                 <div className={styles.textos}>
-                      <h2>Sobre</h2>
-                      <p>Olá, sou <span>Adriano Volter</span>, tenho 39 anos<br /> Sou estudante de <strong>Curso Dev FullStack</strong> no <strong>Senai/SC </strong> <br />Curso com 3 modulos, modulo 1 Front-End <br /> e modulo 2 Back-End completo.
-                        </p>
-                        <p>
-                        </p>
-                        <p>Atualmente estou no modulo 3 do curso.<br /> 
-                        </p>
-                        <p>Meu objetivo é me tornar um <strong>desenvolvedor full stack</strong> <br />Estou estudando as tecnologias mais utilizadas no mercado <br /> Como <strong>ReactJS</strong>, <strong>NodeJS, PostgreSQL</strong>.
-                        </p> 
-                </div>
-                  
+                    <h2>Sobre</h2>
+                    <p>Olá, sou <span>Adriano Volter</span>, e aos meus 39 anos, embarquei na empolgante jornada de estudar Desenvolvimento FullStack no <strong>Senai/SC</strong>.</p>
+                    <p>O curso está estruturado em três módulos. No módulo 1, mergulhei no universo do Front-End, dominando a criação de interfaces cativantes. No módulo 2, explorei com profundidade o Back-End, obtendo uma compreensão completa das engrenagens que movem as aplicações.</p>
+                    <p>Neste momento, estou imerso no módulo 3 do curso, ávido por absorver conhecimentos avançados que ampliarão ainda mais minhas habilidades.</p>
+                    <p>Meu objetivo é me tornar um <strong>desenvolvedor Full Stack</strong>. Estou concentrado no estudo das tecnologias mais relevantes no mercado, tais como <strong>ReactJS</strong>, <strong>NodeJS</strong> e <strong>PostgreSQL</strong>.</p>
+                    </div>
+
             </div>
             <div className={styles.techs}>
                 <h2>Techs</h2>

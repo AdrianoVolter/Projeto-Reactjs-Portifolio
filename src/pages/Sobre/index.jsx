@@ -21,7 +21,7 @@ function Sobre() {
                         </p>
                         <p>
                         </p>
-                        <p>Atualmente estou no modulo 3 do curso.<br /> 
+                        <p>Atualmente estou no modulo 3 do curso.<br />  
                         </p>
                         <p>Meu objetivo é me tornar um <strong>desenvolvedor full stack</strong> <br />Estou estudando as tecnologias mais utilizadas no mercado <br /> Como <strong>ReactJS</strong>, <strong>NodeJS, PostgreSQL</strong>.
                         </p> 

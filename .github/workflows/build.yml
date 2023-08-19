@@ -36,3 +36,5 @@ jobs:
           git commit --allow-empty -m "Automated commit for pull request"
           git push origin update-branch
           hub pull-request -b main -h update-branch -m "Update Docker image"
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_TOKEN }}

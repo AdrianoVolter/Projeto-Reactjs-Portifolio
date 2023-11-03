@@ -16,12 +16,11 @@ function Sobre() {
             <div className={styles.bio}>
                 <img src={avatar} alt="" className={styles.avatar} />
                 <div className={styles.textos}>
-                      <h2>Sobre</h2>
-                      <p>Olá, sou <span>Adriano Volter</span>, tenho 39 anos<br /> Sou <strong>Curso Desenvolvedor FullStack Jr</strong> .
-                        </p>
-                        <p>Meu objetivo é trabalhar na área como<strong>desenvolvedor full-stack</strong> <br />Usando as tecnologias mais utilizadas no mercado <br /> Como <strong>ReactJS</strong>, <strong>NodeJS, PostgreSQL</strong>.
-                        </p> 
-                </div>
+    <h2>Sobre Mim</h2>
+    <p>Olá, meu nome é <span>Adriano Volter</span> e tenho 39 anos. Sou um <strong>Desenvolvedor FullStack Jr</strong> com paixão por criar soluções inovadoras.</p>
+    <p>Meu objetivo é trabalhar na área como <strong>desenvolvedor full-stack</strong>, utilizando as tecnologias mais modernas e amplamente utilizadas no mercado, como <strong>ReactJS</strong>, <strong>NodeJS</strong> e <strong>PostgreSQL</strong>.</p> 
+</div>
+
                   
             </div>
             <div className={styles.techs}>

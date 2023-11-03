@@ -25,7 +25,7 @@ function Sobre() {
                   <p>
                     Meu objetivo é trabalhar na área como{" "}
                     <strong>desenvolvedor full-stack</strong>, <br /> utilizando as tecnologias
-                    mais modernas e amplamente utilizadas no mercado, como{" "}
+                    mais modernas e amplamente utilizadas no mercado, <br /> como{" "}
                     <strong>ReactJS</strong>, <strong>NodeJS</strong> e{" "}
                     <strong>PostgreSQL</strong>.
                   </p>

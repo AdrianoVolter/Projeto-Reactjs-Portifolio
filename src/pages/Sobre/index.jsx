@@ -19,10 +19,6 @@ function Sobre() {
                       <h2>Sobre</h2>
                       <p>Olá, sou <span>Adriano Volter</span>, tenho 39 anos<br /> Sou <strong>Curso Desenvolvedor FullStack Jr</strong> .
                         </p>
-                        <p>
-                        </p>
-                        
-                        </p>
                         <p>Meu objetivo é trabalhar na área como<strong>desenvolvedor full-stack</strong> <br />Usando as tecnologias mais utilizadas no mercado <br /> Como <strong>ReactJS</strong>, <strong>NodeJS, PostgreSQL</strong>.
                         </p> 
                 </div>
@@ -46,6 +42,9 @@ function Sobre() {
 }
 
 export default Sobre
+
+
+
 
 
 

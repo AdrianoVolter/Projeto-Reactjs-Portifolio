@@ -30,6 +30,7 @@ function Sobre() {
                     <strong>PostgreSQL</strong>.
                   </p>
                 </div>
+            </div>
             <div className={styles.techs}>
                 <h2>Techs</h2>
                 <div className={styles.icones}>
@@ -43,7 +44,7 @@ function Sobre() {
 
             </div>
         </section>
-      
+    
     )
 }
 

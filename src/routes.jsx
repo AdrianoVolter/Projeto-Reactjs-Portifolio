@@ -1,10 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Sobre from './pages/Sobre';
-import Projetos from './pages/Projetos';
-import Contatos from './pages/Contatos';
-import Page404 from './pages/Page404';
-import PageBase from './pages/PageBase';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+import Projetos from "./pages/Projetos";
+import Contatos from "./pages/Contatos";
+import Page404 from "./pages/Page404";
+import PageBase from "./pages/PageBase";
 
 function AppRoutes() {
   return (
@@ -23,5 +23,3 @@ function AppRoutes() {
 }
 
 export default AppRoutes;
-
-

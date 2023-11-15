@@ -28,15 +28,3 @@ jobs:
           docker build -t adrianovolter/portifolio-2023-app .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
           docker push adrianovolter/portifolio-2023-app:latest
-
-      - name: Create Pull Request
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git checkout -b update-branch
-          git commit --allow-empty -m "Automated commit for pull request"
-          git push origin update-branch
-          hub pull-request -b main -h update-branch -m "Update Docker image"
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_TOKEN }}

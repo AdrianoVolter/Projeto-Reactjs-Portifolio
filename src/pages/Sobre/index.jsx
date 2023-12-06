@@ -17,8 +17,8 @@ function Sobre() {
         <div className={styles.textos}>
           <h2>Sobre Mim</h2>
           <p>
-            Olá, meu nome é <span>Adriano Volter</span> e tenho 39 anos. <br />{" "}
-            Sou um <strong>Desenvolvedor FullStack Jr</strong> com paixão por
+            Olá, sou <span>Adriano Volter</span> e tenho 39 anos. <br />{" "}
+            Sou um <strong>Desenvolvedor FullStack </strong> com paixão por
             criar soluções inovadoras.
           </p>
           <p>

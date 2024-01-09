@@ -9,21 +9,34 @@
     <img src="https://skillicons.dev/icons?i=react,js,html,css,vite,docker,githubactions" />
   </a>
 </p>
-<li>React 
-<li>Css 
-<li>Html 
-<li>JS
-<li>Vite
-<li>Docker
 
-### Dependências usando o comando `npm install`:
+<li>React - Framework usado para desenvolver o projeto
+
+<li>CSS - Estilização do projeto
+
+<li>Html - Estrutura do projeto
+<li>JS - Lógica do projeto
+<li>Vite - Bundler usado para desenvolver o projeto
+<li>Docker - Usado para fazer o deploy do projeto
+<li>Github Actions - Usado para fazer o CI do projeto
+
+### Dependências usando o comando 
+
+```
+npm install
+```
+
 
 <li>React-dom
 <li>React-router-dom
 <li>React-icons
 
 
-### Para rodar o projeto use o comando `npm run dev`:
+### Para rodar o projeto use o comando
+
+```
+npm run dev
+```
 
 ### Usando docker para rodar o projeto:
 

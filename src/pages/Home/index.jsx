@@ -9,10 +9,10 @@ function Home() {
         <p>
           Olá, sou <br />
           <span>Adriano Volter</span> <br />
-          Dev. Full-Stack Jr <br />
+          Dev. Full-Stack  <br />
         </p>
         <Link to="/sobre" className={`${styles.btn} ${styles.btn_blue}`}>
-          Saiba mais sobre mim
+          Saiba mais 
         </Link>
       </div>
       <figure>

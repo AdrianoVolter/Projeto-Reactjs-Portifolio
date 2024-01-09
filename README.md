@@ -37,7 +37,7 @@ Usado CI para fazer o deploy automático do projeto, toda vez que é feito um pu
 
 ### Link do projeto:
 
-<a href="https://portifolio-react-phi.vercel.app/">Portifólio</a>
+<a href="https://projeto-reactjs-portifolio2023.vercel.app/">Portifólio</a>
 ### Pagina inicial:
 
 ![image](public/page-inicio.png)

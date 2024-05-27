@@ -18,15 +18,7 @@ function Sobre() {
           <h2>Sobre Mim</h2>
           <p>
             Olá, sou <span>Adriano Volter</span> e tenho 39 anos. <br />{" "}
-            Sou um <strong>Desenvolvedor FullStack </strong> com paixão por
-            criar soluções inovadoras.
-          </p>
-          <p>
-            Meu objetivo é trabalhar na área como{" "}
-            <strong>desenvolvedor full-stack</strong>, <br /> utilizando as
-            tecnologias mais modernas e amplamente utilizadas no mercado, <br />{" "}
-            como <strong>ReactJS</strong>, <strong>NodeJS</strong> e{" "}
-            <strong>PostgreSQL</strong>.
+            Sou um profissional dedicado e multifacetado, com experiência na área de desenvolvimento FullStack .<br/> Como desenvolvedor FullStack Jr, possuo habilidades em JavaScript, React, Node.js,<br/> PostgreSQL, Git, Docker e Bootstrap, entre outras tecnologias.<br/> Meu conhecimento prático inclui a implementação de APIs REST<br/> e o uso de ferramentas como Git, Git-Flow e GitHub para controle de versionamento e colaboração em equipe.
           </p>
         </div>
       </div>

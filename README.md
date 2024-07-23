@@ -53,11 +53,11 @@ Usado CI para fazer o deploy automático do projeto, toda vez que é feito um pu
 <a href="https://projeto-reactjs-portifolio2023.vercel.app/">Portifólio</a>
 ### Pagina inicial:
 
-![image](public/page-inicio.png)
+![image](public/Captura%20de%20tela%20de%202024-07-23%2014-31-11.png)
 
 ### Pagina de sobre:
 
-![image](public/sobre.png)
+![image](public/Captura%20de%20tela%20de%202024-07-23%2014-31-03.png)
 
 ### Pagina de projetos:
 

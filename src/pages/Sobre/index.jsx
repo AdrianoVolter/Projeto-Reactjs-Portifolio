@@ -18,7 +18,7 @@ function Sobre() {
           <h2>Sobre Mim</h2>
           <p>
             Olá, sou <span>Adriano Jose Volter</span>, Dev. Back-End <br />{" "}
-            Sou um profissional dedicado , com experiência na área de desenvolvimento Back-end.<br/> Possuo habilidades em Nodejs, PostgreSQL, Javascript,  entre outras.<br/> Meu conhecimento prático inclui a implementação de APIs REST, e o uso de ferramentas <br/>como React, Express, Fastfy, Prisma, Docker, Git e GitHub<br/> entre outras tecnologias. <br/>Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.
+            Sou um profissional dedicado , com experiência na área de desenvolvimento Back-end.<br/> Possuo habilidades em Nodejs, PostgreSQL, Javascript.<br/> Meu conhecimento prático inclui a implementação de APIs REST, e o uso de ferramentas <br/>como React, Express, Fastfy, Prisma, Docker, Git e GitHub<br/> entre outras tecnologias. <br/>Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.
           </p>
         </div>
       </div>

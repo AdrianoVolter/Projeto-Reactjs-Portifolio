@@ -17,8 +17,8 @@ function Sobre() {
         <div className={styles.textos}>
           <h2>Sobre Mim</h2>
           <p>
-            Olá, sou <span>Adriano Volter</span> e tenho 39 anos. <br />{" "}
-            Sou um profissional dedicado e multifacetado, com experiência na área de desenvolvimento FullStack .<br/> Como desenvolvedor FullStack Jr, possuo habilidades em JavaScript, React, Node.js,<br/> PostgreSQL, Git, Docker e Bootstrap, entre outras tecnologias.<br/> Meu conhecimento prático inclui a implementação de APIs REST<br/> e o uso de ferramentas como Git, Git-Flow e GitHub para controle de versionamento e colaboração em equipe.
+            Olá, sou <span>Adriano Jose Volter</span>, Dev. Back-End <br />{" "}
+            Sou um profissional dedicado , com experiência na área de desenvolvimento Back-end.<br/> Possuo habilidades em Nodejs, PostgreSQL, Javascript,  entre outras.<br/> Meu conhecimento prático inclui a implementação de APIs REST, e o uso de ferramentas <br/>como React, Express, Fastfy, Prisma, Docker, Git e GitHub<br/> entre outras tecnologias. <br/>Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.
           </p>
         </div>
       </div>

@@ -67,9 +67,7 @@ Usado CI para fazer o deploy automático do projeto, toda vez que é feito um pu
 
 ![image](public/contatos.png)
 
-### Pagina com responsividade:
 
-![image](public/inicio-resp.png)
 
 
 
